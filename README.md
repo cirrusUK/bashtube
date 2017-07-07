@@ -14,15 +14,12 @@ Requirements
 * [MPV](https://mpv.io)
 '  
 ==========================================================================================  
-  
-  
-Zenity dialouge box for playing sopcast streams
-
-
+ 
 * [SopTV](https://github.com/cirrusUK/bashtube/blob/master/soptv)
-'
+
+Zenity dialouge box for playing sopcast streams
 ============================== 
-Dialouge box for playing sopcast streams, requires zenity, sopcast, sopcast launcher & mpv
+  Dialouge box for playing sopcast streams, requires zenity, sopcast, sopcast launcher & mpv
 
 ![soptv](/soptv.png)
 
@@ -32,5 +29,8 @@ Requirements
 * [Sopcast Launcher](https://github.com/jonian/sopcast-launcher)
 * [Sopcast](http://www.sopcast.com/)
 * [MPV](https://mpv.io)
+'
+==========================================================================================  
+
 
 
