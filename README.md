@@ -29,6 +29,7 @@ Requirements
 * [Sopcast Launcher](https://github.com/jonian/sopcast-launcher)
 * [Sopcast](http://www.sopcast.com/)
 * [MPV](https://mpv.io)
+
 '
 ==========================================================================================  
 
