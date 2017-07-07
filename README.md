@@ -1,4 +1,4 @@
-BashTube
+* BashTube
 
 shell scripts for viewing video playlists / streams
 ==============================  
@@ -18,7 +18,7 @@ Requirements
   
 
 
-SopTV
+* SopTV
 
 Zenity dialouge box for playing sopcast streams
 ============================== 
