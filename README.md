@@ -24,7 +24,7 @@ Zenity dialouge box for playing sopcast streams
 
 ![soptv](/soptv.png)
 
-Requirements
+**Requirements**
 ==============================  
 * [zenity](https://help.gnome.org/users/zenity/stable/index.html.en)
 * [Sopcast Launcher](https://github.com/jonian/sopcast-launcher)
