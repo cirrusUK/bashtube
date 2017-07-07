@@ -11,8 +11,8 @@ Simple shell scripts for viewing video playlists and popular sports channels, i 
 
 Requirements
 ==============================  
-[Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)
-[Toilet](http://caca.zoy.org/wiki/toilet)
-[MPV](https://mpv.io)
+***[Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)***
+***[Toilet](http://caca.zoy.org/wiki/toilet)***
+***[MPV](https://mpv.io)***
 
 ![screenshot](/screenshot.png)
