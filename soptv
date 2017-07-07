@@ -1,0 +1,35 @@
+#! /bin/bash
+#dialouge box for playing sopcast streams, requires sopcast launcher & mpv
+action=$(zenity --window-icon "/usr/share/zenity/zenity.png"  --list  \
+    --column="               📺  Stream Listing 📺"   --text=" 🐧               Pick a stream: ⏬↓📺📺📺📺📺↓⏬                🐧  " \
+    "BBC_Earth" "Discovery_ID" "Discovery_Science" "Diva_Universal" "Nat_Geo" "Nat_Geo_Wild" "History" "HBO" "HBO_2" "HBO_3" "Film_Cafe" "Duck_TV" "AXN" "Nickolodeon" "Paramount" "TLC" "Fox_Sport_Hd" "London_Live" "RT")
+ret=$?
+
+[[ $ret -eq 1 ]] && exit 0
+
+
+case $action in
+    BBC_Earth*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/148257 --player mpv" ;;
+    Discovery_ID*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/256244 --player mpv" ;;
+    Discovery_Science*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/256243 --player mpv" ;;
+    Diva_Universal*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/253034 --player mpv" ;;
+    Nat_Geo*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/148248 --player mpv" ;;
+    Nat_Geo_Wild*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/253037 --player mpv" ;;
+    History*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/253032 --player mpv" ;;
+    HBO*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/259497 --player mpv" ;;
+    HBO_2*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/149259 --player mpv" ;;
+    HBO_3*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/149255 --player mpv" ;;
+    Film_Cafe*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/256238 --player mpv" ;;      
+    Duck_TV*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/148259 --player mpv" ;; 
+    AXN*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/253035 --player mpv" ;; 
+ Nickolodeon*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/253472 --player mpv" ;;   
+    Paramount*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/253033 --player mpv" ;;   
+    TLC*) cmd="sopcast-launcher sop://broker.sopcast.com:3912/148256 --player mpv" ;;     
+    Fox_Sport_Hd*) cmd="mpv http://motorsport.hopto.org:8080/ " ;;   
+    London_Live*) cmd="mpv http://goo.gl/QYUP1M" ;; 
+    RT*) cmd="mpv http://rt.ashttp14.visionip.tv/live/rt-global-live-HD/playlist.m3u8" ;;   
+    
+        *) exit 1 ;;
+    esac
+
+eval exec $cmd 
