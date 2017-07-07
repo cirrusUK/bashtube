@@ -13,4 +13,18 @@ Requirements
 * [Toilet](http://caca.zoy.org/wiki/toilet)
 * [MPV](https://mpv.io)
 
+SopTV
+
+Zenity dialouge box for playing sopcast streams
+============================== 
+
 ![soptv](/soptv.png)
+
+Requirements
+==============================  
+* [zenity](https://help.gnome.org/users/zenity/stable/index.html.en)
+* [Sopcast Launcher](https://github.com/jonian/sopcast-launcher)
+* [Sopcast](http://www.sopcast.com/)
+* [MPV](https://mpv.io)
+
+
