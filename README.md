@@ -20,7 +20,7 @@ Zenity dialouge box for playing sopcast streams
 
 
 * [SopTV](https://github.com/cirrusUK/bashtube/blob/master/soptv)
-
+'
 ============================== 
 Dialouge box for playing sopcast streams, requires zenity, sopcast, sopcast launcher & mpv
 
