@@ -1,5 +1,8 @@
 # bashtube
 shell script for viewing video playlists
-Screenshot
+
 ----------------------------
-![](/screenshot.png)
+![screenshot](/screenshot.png)
+
+![bashtube](/bashtube.png)
+
