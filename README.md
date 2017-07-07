@@ -1,4 +1,4 @@
-* [BashTube](https://github.com/cirrusUK/bashtube/blob/master/bashtube.sh)
+* [BashTube](https://github.com/cirrusUK/bashtube/blob/master/bashtube.sh) 📺
 
 shell scripts for viewing video playlists / streams
 ==============================  
@@ -15,7 +15,7 @@ Requirements
 '  
 ==========================================================================================  
  
-* [SopTV](https://github.com/cirrusUK/bashtube/blob/master/soptv)
+* [SopTV](https://github.com/cirrusUK/bashtube/blob/master/soptv) 📺
 
 Zenity dialouge box for playing sopcast streams
 ============================== 
