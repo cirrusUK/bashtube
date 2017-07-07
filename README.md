@@ -7,7 +7,7 @@ Simple shell scripts for viewing video playlists and popular sports channels, i 
 ![screenshot](/screenshot.png)
 
 
-Requirements
+*Requirements*
 ==============================  
 * [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)
 * [Toilet](http://caca.zoy.org/wiki/toilet)
