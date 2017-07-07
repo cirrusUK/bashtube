@@ -10,9 +10,9 @@ Simple shell scripts for viewing video playlists and popular sports channels, i 
 
 Requirements
 ==============================  
-pipe viewer
-toilet
-mpv
+* **Pipe Viewer**
+* **Toilet**
+* **MPV**
 ==============================  
 
 ![screenshot](/screenshot.png)
