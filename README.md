@@ -12,11 +12,15 @@ Requirements
 * [Pipe Viewer](http://www.ivarch.com/programs/pv.shtml)
 * [Toilet](http://caca.zoy.org/wiki/toilet)
 * [MPV](https://mpv.io)
+'  
+==============================  
+
 
 SopTV
 
 Zenity dialouge box for playing sopcast streams
 ============================== 
+Dialouge box for playing sopcast streams, requires sopcast, sopcast launcher & mpv
 
 ![soptv](/soptv.png)
 
