@@ -13,6 +13,5 @@ Requirements
 * **Pipe Viewer**
 * **Toilet**
 * **MPV**
-==============================  
 
 ![screenshot](/screenshot.png)
