@@ -22,7 +22,7 @@ SopTV
 
 Zenity dialouge box for playing sopcast streams
 ============================== 
-Dialouge box for playing sopcast streams, requires sopcast, sopcast launcher & mpv
+Dialouge box for playing sopcast streams, requires zenity, sopcast, sopcast launcher & mpv
 
 ![soptv](/soptv.png)
 
