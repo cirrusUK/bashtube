@@ -9,7 +9,7 @@ printf %"s\n"
 tput setaf 3
 blue=`tput setaf 4`
 echo -e "\e[0;36m📺 \e[0;31m📺 \e[0;32m📺 \e[0;33m📺 \e[0;34m📺 \e[0;39m📺 \e[0;38m📺 \e[0;35m📺 \e[0;37m📺 \e[0;33m📺 \e[0;39m📺  \e[0m\n"
-toilet -f pagga --metal ' sky_sports'
+toilet -f future --metal ' sky_sports'
 tput setaf 2
 printf %"s\n"
 printf '\E[33m'" Enter number/letter of desired\n stream,sit back & enjoy"  | pv -qL 20 ;
