@@ -64,7 +64,7 @@ do
            echo "Playing Sky_Sports_F1"
            break;;           
            
-   [7]* ) mpv 'http://185.142.239.164:3135/News.Sports/index.m3u8'
+   [7]* ) mpv 'http://smart.worldiptv.in:53333/SkySportNews?auth=lgmarinov+buzemska5'
            echo "Playing Sky_Sports_News"
            break;;
 
