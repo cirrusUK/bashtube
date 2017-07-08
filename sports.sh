@@ -30,7 +30,7 @@ A= ESPN
 B= LIGTV
 C= StarSport
 D= Chelsea_TV
-
+E= Wimbledon
 `tput setaf 2`
 Q= Exit 
 `tput setaf 1`
@@ -95,6 +95,10 @@ do
    [dD]* ) mpv 'http://ooyalahd2-f.akamaihd.net/i/chelsea02_delivery@145821/index_2528_av-p.m3u8 '
            echo "Playing Chelsea_TV"
            break;;
+           
+   [eE]* ) mpv 'http://78.129.184.15:9625/streaming/stream/playlist.m3u8'
+           echo "Playing Wimbledon"
+           break;;           
 
    [Qq]* ) exit;;
    
