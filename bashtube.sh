@@ -8,6 +8,24 @@ printf %"s\n"
 printf %"s\n"
 tput setaf 3
 blue=`tput setaf 4`
+stations=(
+1='Judge Judy Playlist' 
+2='Judge Judy Playlist' 
+3='Judge Judy Playlist' 
+4='2020 Playlist' 
+5='2020 Playlist' 
+6='2020 On I.D'
+7='Dateline'
+8='CrimeTime TV'
+9='Crime INC'
+0='Real Stories'
+A='Tucker Dell'
+B='John Aylward'
+C='David B. Mayes'
+D='Crime Stories '
+E= 'Crime & Investigation'
+F= 'London Live'
+)
 echo -e "\e[0;36m📺 \e[0;31m📺 \e[0;32m📺 \e[0;33m📺 \e[0;34m📺 \e[0;39m📺 \e[0;38m📺 \e[0;35m📺 \e[0;37m📺 \e[0;33m📺 \e[0;39m📺  \e[0m\n"
 toilet -f future --metal ' BashTube'
 tput setaf 2
@@ -38,6 +56,8 @@ Q= Exit
 PLay=: " answer
 tput setaf 1
 echo "You entered: $answer"
+tput setaf 2
+echo ${stations}
 # (2) handle the command line argument we were given
 while true
 do
