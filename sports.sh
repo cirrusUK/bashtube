@@ -36,6 +36,7 @@ Q= Exit
 `tput setaf 1`
 PLay: " answer
 tput setaf 1
+echo "You entered: $answer"
 # (2) handle the command line argument we were given
 while true
 do
